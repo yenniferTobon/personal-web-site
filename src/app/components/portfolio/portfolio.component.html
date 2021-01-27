@@ -1,0 +1,22 @@
+<h1>Personal <small>Projects</small></h1>
+<hr>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col" *ngFor="let portf of portfolio">
+        <div class="card animated fadeIn fast" style="width: 26rem;">
+            <img [src]="portf.img" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ portf.title}}</h5>
+                <p class="card-text">{{ portf.description }}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">{{ portf.tools }}</li>
+                <li class="list-group-item">{{ portf.dateLastModified }}</li>
+            </ul>
+            <div class="card-body">
+                <a [routerLink]="" class="btn btn-outline-primary">See More...</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+</div>
