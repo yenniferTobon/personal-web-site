@@ -3,13 +3,13 @@ import { Injectable } from '@angular/core';
 @Injectable()
 
 export class PortafolioService {
-    
+
     private portfolio: portfolioInterface[] = [
         {
           title: "Update Imagen",
-          description: "El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.",
+          description: "System that allows individual loading or massive loading of images in JPG format of any dimension and performs the analysis to identify whether the image fits within a sheet of specific dimensions, if it does not fit, the image is modified preserving the quality and the ratio.",
           img: "assets/img/A-64.png",
-          dateLastModified: "1941-11-01",
+          dateLastModified: "2020-12-21",
           tools:"Backend-Nodejs, Frontend-Angular"
         },
         {
